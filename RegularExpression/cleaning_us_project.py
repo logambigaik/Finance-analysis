@@ -2,7 +2,8 @@ import pandas as pd
 import numpy as np
 import glob
 import matplotlib.pyplot as plt
-import codecademylib3_seaborn
+import seaborn
+
 files = glob.glob('states*.csv')
 census = []
 for filename in files:
